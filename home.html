@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Dashboard</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">SimploPro</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="Search Courses..." maxlength="150">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="images/Student_Headshot.png" class="image" alt="">
+         <h3 class="name">Lacy Pennell</h3>
+         <p class="role">Student</p>
+         <a href="profile.html" class="btn">view profile</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">login</a>
+            <a href="register.html" class="option-btn">register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/Student_Headshot.png" class="image" alt="">
+      <h3 class="name">Lacy Pennell</h3>
+      <p class="role">Student</p>
+      <a href="profile.html" class="btn">view profile</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>Dashboard</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Help and Support</span></a>
+   </nav>
+
+</div>
+
+<section class="home-grid">
+
+   <h1 class="heading">quick options</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3 class="title">likes and comments</h3>
+         <p class="likes">Total Likes : <span>2</span></p>
+         <a href="#" class="inline-btn">view likes</a>
+         <p class="likes">Total Comments : <span>5</span></p>
+         <a href="#" class="inline-btn">View Comments</a>
+         <p class="likes">Saved Playlists : <span>3</span></p>
+         <a href="#" class="inline-btn">View Playlists</a>
+         <p class="likes">Watch Later : <span>0</span></p>
+         <a href="#" class="inline-btn">View Videos</a>
+      </div>
+
+      <div class="box">
+         <h3 class="title">Communities</h3>
+         <p class="likes">Total Communities : <span>3</span></p>
+         <a href="#" class="inline-btn">view communities</a>
+         <p class="likes">Pending Requests : <span>1</span></p>
+         <a href="#" class="inline-btn">View Requests</a>
+      </div>
+
+      <div class="box">
+         <h3 class="title">become a tutor</h3>
+         <p class="tutor">SimploPro is run by students like you!</p>
+         <a href="teachers.html" class="inline-btn">get started</a>
+      </div>
+
+      <div class="box">
+         <h3 class="title">Popular Topics</h3>
+         <div class="flex">
+            <a href="#"><i class="fas fa-code"></i><span>SQL</span></a>
+            <a href="#"><i class="fas fa-chart-simple"></i><span>Statistics</span></a>
+            <a href="#"><i class="fas fa-pen"></i><span>Senior Design</span></a>
+            <a href="#"><i class="fas fa-chart-line"></i><span>Analytics</span></a>
+            <a href="#"><i class="fas fa-cog"></i><span>Help</span></a>
+         </div>
+      </div>
+
+
+   </div>
+
+</section>
+
+
+
+<section class="courses">
+
+   <h1 class="heading">Your Courses</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/USF_Logo.png" alt="">
+            <div class="info">
+               <h3>ESI 4007</h3>
+               <span>08-14-2023</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/vba2.png" alt="">
+            <span>10 videos</span>
+         </div>
+         <h3 class="title">Complete VBA Tutorial</h3>
+         <a href="playlist.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/USF_Logo.png" alt="">
+            <div class="info">
+               <h3>ESI 4620</h3>
+               <span>01-07-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/sql.webp" alt="">
+            <span>10 videos</span>
+         </div>
+         <h3 class="title">Complete SQL Server Tutorial</h3>
+         <a href="playlist.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/USF_Logo.png" alt="">
+            <div class="info">
+               <h3>ESI 4523</h3>
+               <span>01-07-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/arena.png" alt="">
+            <span>10 videos</span>
+         </div>
+         <h3 class="title">Arena Rockwell Software Introduction</h3>
+         <a href="playlist.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/USF_Logo.png" alt="">
+            <div class="info">
+               <h3>ESI 4606</h3>
+               <span>08-14-2023</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/R.webp" alt="">
+            <span>10 videos</span>
+         </div>
+         <h3 class="title">Introduction to R & RStudio</h3>
+         <a href="playlist.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/USF_Logo.png" alt="">
+            <div class="info">
+               <h3>EGN 1113</h3>
+               <span>08-14-2023</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/AutoCAD-logo.png" alt="">
+            <span>5 videos</span>
+         </div>
+         <h3 class="title">AutoCAD Download Tutorial</h3>
+         <a href="playlist.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/USF_Logo.png" alt="">
+            <div class="info">
+               <h3>EIN 4601C</h3>
+               <span>08-14-2023</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/LabVIEW.webp" alt="">
+            <span>2 videos</span>
+         </div>
+         <h3 class="title">Complete LabVIEW 2020 Tutorial</h3>
+         <a href="playlist.html" class="inline-btn">view playlist</a>
+      </div>
+
+   </div>
+
+   <div class="more-btn">
+      <a href="courses.html" class="inline-option-btn">view all courses</a>
+   </div>
+
+</section>
+
+
+
+
+<footer class="footer">
+
+   &copy; Copyright @ 2024 by <span>SimploPro</span> | All rights reserved.
+
+</footer>
+
+<!-- TOS Banner -->
+<div id="tosBanner" style="display: none;">
+   <p>By using this site, you agree to our <a href="/tos">Terms of Service</a>.</p>
+   <button onclick="hideTosBanner()">Accept</button>
+</div>
+
+<!-- Overlay for Popup -->
+<div id="overlay" style="display: none;"></div>
+<!-- Cookie Consent Popup -->
+<div id="cookieConsentPopup" style="display: none;">
+    <p>This website uses cookies to ensure you get the best experience on our website.</p>
+    <button onclick="acceptCookies()">Accept</button>
+</div>
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>
